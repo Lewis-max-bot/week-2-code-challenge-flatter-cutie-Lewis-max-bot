@@ -1,7 +1,7 @@
 // Your code here
 
 document.addEventListener('DOMContentLoaded', () => {
-    const baseUrl = 'http://localhost:3000/characters';
+    const baseUrl = 'https://flatter-ten.vercel.app/characters';
 
     fetch(baseUrl)
       .then(response => response.json())
